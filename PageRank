@@ -1,0 +1,20 @@
+### the Dangling Links in Pageranks
+
+In reading the PageRank original paper "[The PageRank Citation Ranking: Bring Order to the Web]" (http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf).
+There is a paragraph discuss on the dangling links. It discussed that "...dangling links do not affect the ranking of any other pages directly..."
+Maybe to the math/cs students, the conclusion is clear but it quite confusiing to a student without cs/math background.
+
+But we can use a Excel simulation to test that. The followint is an example.
+![weblinks with Dangling link](Screen Shot 2019-06-10 at 2.58.26 PM.png)
+
+In the figure, E is a dangling link, we can simulate the Pagerank process in two ways.
+*Without outbound links from E.
+
+the whole process illustrated in the fillowing figure.
+
+![without self-link to E](s1.png)
+![with self-link to E](simulation2.png)
+
+The dangling link page (E) hasn't change the pagerank value of the other fives.
+
+
