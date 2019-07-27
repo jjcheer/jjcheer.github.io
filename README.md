@@ -1,3 +1,7 @@
+## content list
+[1. Business Intelligence with Weka](https://jjcheer.github.io)   
+[2. LPY01](lpy01.md)   
+[3. LPY02](lpy02.md)
 ## Business Inetelligence with WEKA
 
 It's a beginners Business intelligence recording sites. In this site, I use WEKA, some times use R to do some business analytics practice and write down some tips in interacting with the software, WEKA and R.
